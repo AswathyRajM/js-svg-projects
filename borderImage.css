@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: chocolate;
+    border: 80px solid black;
+    width: 50vw;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    /* border-image: url slice repeat; */
+    border-image-source: url('images/border-image/border.png');
+    border-image-slice: 33%;
+    border-image-repeat: round;
+
+}
+
+span {
+    color: black;
+}
