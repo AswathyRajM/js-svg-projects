@@ -12,7 +12,7 @@
     transform: translate(-50%, -50%);
 
     /* border-image: url slice repeat; */
-    border-image-source: url('images/border-image/border.png');
+    border-image-source: url('border.png');
     border-image-slice: 33%;
     border-image-repeat: round;
 
