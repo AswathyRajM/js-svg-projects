@@ -42,30 +42,33 @@ a {
     color: rgb(0, 0, 0) !important;
 }
 
+.item:hover h3 {
+    color: rgba(255, 255, 255, 0.924);
+}
+
+.item:hover .paragraph {
+    color: rgb(0, 0, 0) !important;
+}
+
 .container .item h2 {
     font-size: 2rem;
     color: rgba(255, 255, 255, 0.924);
     margin-bottom: 10px;
     text-transform: uppercase;
-    transition: .3s ease background-color;
+    transition: .3s ease-in color;
 }
 
 .container .item h3 {
     color: chartreuse;
+    transition: .3s ease color;
     margin-bottom: 5px;
 }
 
-.item:hover h3 {
-    color: rgba(255, 255, 255, 0.924);
-}
+
 
 .paragraph {
     color: rgba(255, 255, 255, 0.819);
     font-size: 20px;
-    transition: .3s ease background-color;
+    transition: .3s ease color;
     letter-spacing: 0.5px;
-}
-
-.item:hover .paragraph {
-    color: rgb(0, 0, 0) !important;
 }
