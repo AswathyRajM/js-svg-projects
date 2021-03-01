@@ -3,7 +3,7 @@ const projects = [
     heading: "Birds and Flower",
     subHeading: "HTML,JS and CSS",
     description: "Birds rotate towards the mouse movement",
-    page: "https://aswathyrajm.github.io/bird-flower-mouse-movement/",
+    page: "birdFlower/birdFlower.html",
   },
   {
     heading: "Image as boreder",
@@ -20,8 +20,9 @@ const projects = [
   {
     heading: "Fibinocci Flower Generator",
     subHeading: "HTML and JS",
-    description: "Using HTML Canvas and JavaScript,  ",
-    page: "hTreeFractal/index.html",
+    description:
+      "Using HTML Canvas and JavaScript and recursion, it generates flower shaped circles ",
+    page: "fibinocciFlower/fibinocciFlower.html",
   },
 ];
 
