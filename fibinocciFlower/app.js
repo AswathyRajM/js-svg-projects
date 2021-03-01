@@ -3,16 +3,13 @@ const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-// ctx.fillRect(x1,y1,x2,y2)
+ctx.globalCompositeOperation = "destination-over";
 
 let number = 0;
 let scale = 10;
 
 function drawFlower() {
-  //   let positionX = canvas.width / 2 - 50;
-  //   let positionY = canvas.height / 2;
-
-  let angle = number * 1;
+  let angle = number * 0.5;
   let radius = scale * Math.sqrt(number);
 
   // sin transfers the angle between the range of -1 to +1
@@ -23,9 +20,9 @@ function drawFlower() {
 
   ctx.fillStyle = "lightgreen";
   ctx.strokeStyle = "blue";
-  ctx.lineWidth = 5;
+  ctx.lineWidth = 2;
   ctx.beginPath();
-  ctx.arc(positionX, positionY, 20, 0, Math.PI * 2); //360deg
+  ctx.arc(positionX, positionY, number, 0, Math.PI * 2); //360deg
   ctx.closePath();
   ctx.fill();
   ctx.stroke();
@@ -34,12 +31,11 @@ function drawFlower() {
 
 function animate() {
   // can also use setInterval, but this method is better beacause it automatically
-  //   adjust to the device refresh rate
+  // adjust to the device refresh rate
 
   //   ctx.clearRect(0, 0, canvas.width, canvas.height);
   if (number > 150) return;
   drawFlower();
-  requestAnimationFrame(animate); //calls the function given as the parametere
+  requestAnimationFrame(animate);
 }
-
 animate();
