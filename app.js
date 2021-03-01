@@ -2,7 +2,7 @@ const projects = [
   {
     heading: "Birds and Flower",
     description: "Birds rotate towards the mouse movement",
-    page: "birdFlower/birdFlower.html",
+    page: "https://aswathyrajm.github.io/bird-flower-mouse-movement/",
   },
   {
     heading: "Image as boreder",
