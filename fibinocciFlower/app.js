@@ -33,8 +33,11 @@ function drawFlower() {
 }
 
 function animate() {
-  //   ctx.clearRect(0, 0, canvas.width, canvas.height);
+  // can also use setInterval, but this method is better beacause it automatically
+  //   adjust to the device refresh rate
 
+  //   ctx.clearRect(0, 0, canvas.width, canvas.height);
+  if (number > 150) return;
   drawFlower();
   requestAnimationFrame(animate); //calls the function given as the parametere
 }
