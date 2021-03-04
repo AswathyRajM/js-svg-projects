@@ -6,7 +6,7 @@ const projects = [
     page: "birdFlower/birdFlower.html",
   },
   {
-    heading: "Image as boreder",
+    heading: "Image as border",
     subHeading: "HTML and CSS",
     description: "Border of the div is an image",
     page: "borderImage/borderImage.html",
