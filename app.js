@@ -24,6 +24,12 @@ const projects = [
       "Using HTML Canvas and JavaScript and recursion, it generates flower shaped circles ",
     page: "fibinocciFlower/fibinocciFlower.html",
   },
+  {
+    heading: "Flappy Bird",
+    subHeading: "HTML and JS",
+    description: "Simple flappy Bird using HTML canvas",
+    page: "flappyBird/flappyBird.html",
+  },
 ];
 
 var container = document.querySelector(".container");
