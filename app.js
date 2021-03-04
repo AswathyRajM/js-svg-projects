@@ -28,7 +28,7 @@ const projects = [
     heading: "Flappy Bird",
     subHeading: "HTML and JS",
     description: "Simple flappy Bird using HTML canvas",
-    page: "flappyBird/flappyBird.html",
+    page: "flappyBird/flappybird.html",
   },
 ];
 
