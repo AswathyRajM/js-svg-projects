@@ -20,7 +20,7 @@ a {
 .container .item {
     flex-basis: 20%;
     width: 300px;
-    height: auto;
+    height: 400px;
     position: relative;
     display: flex;
     align-items: flex-start;
