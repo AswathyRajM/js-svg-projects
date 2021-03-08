@@ -16,12 +16,15 @@
     <svg>
       <defs>
         <filter id="wave">
+          <!-- basefrqquency x y -->
           <feTurbulence
             type="fractalNoise"
             baseFrequency="0.09 0.00001"
             numOctaves="1"
             result="warp"
           />
+
+          <!-- scale changes the size of waves, in = type of element-->
           <feDisplacementMap
             xChannelSelector="R"
             yChannelSelector="G"
