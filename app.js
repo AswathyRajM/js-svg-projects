@@ -30,6 +30,12 @@ const projects = [
     description: "Simple flappy Bird using HTML canvas",
     page: "flappyBird/flappybird.html",
   },
+  {
+    heading: "Button Animations",
+    subHeading: "HTML SVG,CSS and JS",
+    description: "Simple button animation using Svg",
+    page: "animatedButtons/index.html",
+  },
 ];
 
 var container = document.querySelector(".container");
