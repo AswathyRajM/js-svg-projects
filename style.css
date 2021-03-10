@@ -20,8 +20,8 @@ a {
 
 .container .item {
     flex-basis: 80%;
-    min-width: 300px;
-    min-height: 300px;
+    min-width: 250px;
+    min-height: 250px;
     position: relative;
     display: flex;
     align-items: flex-start;
@@ -38,16 +38,8 @@ a {
     background-color: #f05454
 }
 
-.item:hover h2 {
-    color: rgb(0, 0, 0) !important;
-}
-
 .item:hover h3 {
     color: rgba(255, 255, 255, 0.924) !important;
-}
-
-.item:hover .paragraph {
-    color: rgb(0, 0, 0) !important;
 }
 
 .container .item h2 {
@@ -80,8 +72,8 @@ a {
 
     .container .item {
         flex-basis: 30%;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 250px;
         display: flex;
         align-items: flex-start;
         justify-content: center;
