@@ -29,14 +29,15 @@ a {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-color: black;
+    /* background-color: rgb(20, 48, 126); */
+    background-color: #DDD;
     margin: 10px;
     transition: .3s ease background-color;
 
 }
 
 .item:hover {
-    background-color: rgb(37, 173, 3);
+    background-color: #f05454
 }
 
 .item:hover h2 {
@@ -44,7 +45,7 @@ a {
 }
 
 .item:hover h3 {
-    color: rgba(255, 255, 255, 0.924);
+    color: rgba(255, 255, 255, 0.924) !important;
 }
 
 .item:hover .paragraph {
@@ -53,20 +54,20 @@ a {
 
 .container .item h2 {
     font-size: 2rem;
-    color: rgba(255, 255, 255, 0.924);
+    color: black;
     margin-bottom: 10px;
     text-transform: uppercase;
     transition: .3s ease-in color;
 }
 
 .container .item h3 {
-    color: chartreuse;
+    color: #f05454;
     transition: .3s ease color;
     margin-bottom: 5px;
 }
 
 .paragraph {
-    color: rgba(255, 255, 255, 0.819);
+    color: black;
     font-size: 20px;
     transition: .3s ease color;
     letter-spacing: 0.5px;
