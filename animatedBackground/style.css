@@ -2,4 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: bold 35px helvetica;
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+}
+
+h1.question {
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+h1.answer {
+    transform: rotateX(0);
+    text-align: right;
+    margin-right: 100px;
+}
+
+input {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+}
+
+label {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 10;
+}
+
+.background {
+    background: linear-gradient(#fff, #f6f406, #0c0af3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.dinosaurs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+.dinosaur {
+    background-image: url(dinosaur.png);
+    width: 700px;
+    height: 300px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
