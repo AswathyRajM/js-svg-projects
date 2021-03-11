@@ -85,3 +85,13 @@ a {
         color: rgba(255, 255, 255, 0.924);
     }
 }
+
+/* .item :is(p, h1) {}
+
+.item p,
+.item h1 {} */
+
+/* :is(.header, .section) p:hover {}
+
+.header p:hover,
+.section p:hover {} */
