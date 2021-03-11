@@ -33,8 +33,14 @@ const projects = [
   {
     heading: "Button Animations",
     subHeading: "HTML SVG,CSS and JS",
-    description: "Simple button animation using Svg",
+    description: "Simple button animation using SVG",
     page: "animatedButtons/index.html",
+  },
+  {
+    heading: "Animated Background",
+    subHeading: "HTML and CSS ",
+    description: "Background animation using linear gradient",
+    page: "  animatedBackground/index.html",
   },
 ];
 
