@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Hover Effect</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Buttons -->
+    <div class="container">
+      <div class="button-wrapper">
+        <button></button>
+        <div class="button-label">Home</div>
+      </div>
+      <div class="button-wrapper">
+        <button></button>
+        <div class="button-label">About</div>
+      </div>
+      <div class="button-wrapper">
+        <button></button>
+        <div class="button-label">Artworks</div>
+      </div>
+      <div class="button-wrapper">
+        <button></button>
+        <div class="button-label">Contact</div>
+      </div>
+      <div class="button-wrapper">
+        <button></button>
+        <div class="button-label">Shop</div>
+      </div>
+    </div>
+    <!-- End of buttons -->
+
+    <!-- SVG filter for button animations -->
+    <svg>
+      <defs>
+        <filter id="shake0">
+          <feTurbulence
+            id="turbulence"
+            baseFrequency="0.02"
+            numOctaves="3"
+            seed="0"
+          />
+          <feDisplacementMap
+            id="displacement"
+            in="SourceGraphic"
+            in2="noise"
+            scale="30"
+          />
+        </filter>
+      </defs>
+    </svg>
+    <!-- End of SVG filter for button animations -->
+  </body>
+</html>
