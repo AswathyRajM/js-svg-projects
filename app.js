@@ -45,27 +45,35 @@ const projects = [
 ];
 
 var container = document.querySelector(".container");
-
+var code = "";
 for (let i = 0; i < projects.length; i++) {
-  var divItem = document.createElement("a");
-  var heading = document.createElement("h2");
-  var subHeading = document.createElement("h3");
-  var paragraph = document.createElement("p");
-  var description = document.createTextNode(projects[i].description);
-  var headingText = document.createTextNode(projects[i].heading);
-  var subHeadingText = document.createTextNode(projects[i].subHeading);
+  // var divItem = document.createElement("a");
+  // var heading = document.createElement("h2");
+  // var subHeading = document.createElement("h3");
+  // var paragraph = document.createElement("p");
+  // var description = document.createTextNode(projects[i].description);
+  // var headingText = document.createTextNode(projects[i].heading);
+  // var subHeadingText = document.createTextNode(projects[i].subHeading);
 
-  divItem.setAttribute("class", "item");
-  divItem.setAttribute("href", projects[i].page);
-  paragraph.setAttribute("class", "paragraph");
+  // divItem.setAttribute("class", "item");
+  // divItem.setAttribute("href", projects[i].page);
+  // paragraph.setAttribute("class", "paragraph");
 
-  heading.appendChild(headingText);
-  subHeading.appendChild(subHeadingText);
-  paragraph.appendChild(description);
+  // heading.appendChild(headingText);
+  // subHeading.appendChild(subHeadingText);
+  // paragraph.appendChild(description);
 
-  divItem.appendChild(heading);
-  divItem.appendChild(subHeading);
-  divItem.appendChild(paragraph);
+  // divItem.appendChild(heading);
+  // divItem.appendChild(subHeading);
+  // divItem.appendChild(paragraph);
 
-  container.appendChild(divItem);
+  // container.appendChild(divItem);
+
+  code += `
+  <a class="item" href="${projects[i].page}">
+      <h2>${projects[i].heading}</h2>
+      <h3>${projects[i].subHeading}</h3>
+      <p class="paragraph">${projects[i].description}</p>
+    </a> `;
 }
+container.innerHTML = code;
