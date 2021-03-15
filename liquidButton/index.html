@@ -2,9 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=
-    , initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Liquid Button Animation</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+   <body>
+    <div class="button">
+      <i class="material-icons">facebook</i>   
+      <div class="blurred"><span></span><span></span></div>
+    </div>
+    
+    <svg>
+     <defs>
+      <filter id='goo'>
+       <feGaussianBlur in='SourceGraphic' 
+       stdDeviation='10' result='name'/>
+        <feColorMatrix in='name' mode='matrix'
+            values='1 0 0 0 0
+                    0 1 0 0 0 
+                    0 0 1 0 0
+                    0 0 0 30 -15 ' result='aab'/>
+        <feBlend in='SourceGraphic' in2='aab'/>
+       </filter>
+     </defs>
+    </svg>
+  </body>
 </html>
