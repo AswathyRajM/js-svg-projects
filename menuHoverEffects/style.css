@@ -43,7 +43,7 @@ button {
 .button-wrapper:hover {
     transform: scale(1.5);
     z-index: 100;
-    filter: url('#wave');
+    filter: url('#shake0');
 }
 
 .button-wrapper:hover button {
