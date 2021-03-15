@@ -43,7 +43,7 @@ button {
 .button-wrapper:hover {
     transform: scale(1.5);
     z-index: 100;
-    filter: url('#shake0');
+    animation: disort 0.4s linear infinite;
 }
 
 .button-wrapper:hover button {
@@ -52,4 +52,26 @@ button {
 
 .button-wrapper:hover .button-label {
     color: #000;
+}
+
+@keyframes disort {
+    0% {
+        filter: url('#shake0');
+    }
+
+    25% {
+        filter: url('#shake1');
+    }
+
+    50% {
+        filter: url('#shake2');
+    }
+
+    75% {
+        filter: url('#shake3');
+    }
+
+    100% {
+        filter: url('#shake4');
+    }
 }
