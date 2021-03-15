@@ -48,6 +48,13 @@ const projects = [
     description: "Menu hover effects and animation using SVG filter",
     page: "menuHoverEffects/index.html",
   },
+  {
+    heading: "Liquid effect on css with svg filter",
+    subHeading: "HTML, CSS & SVG",
+    description:
+      "Liquid effect on css with svg filter; ‘Sticky/liquid/goo’ effect ",
+    page: "liquidButton/index.html",
+  },
 ];
 
 // var divItem = document.createElement("a");
