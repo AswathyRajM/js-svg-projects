@@ -1,6 +1,6 @@
 var container = document.querySelector(".container");
 var code = "";
-for (let i = 0; i < projects.length; i++) {
+for (let i = projects.length - 1; i >= 0; i--) {
   code += `
   <a class="item" href="${projects[i].page}">
       <h2>${projects[i].heading}</h2>
