@@ -94,6 +94,16 @@ function processRequest(response) {
   });
 }
 
-makeRequest("google").then((response) => {
-  console.log(response);
-}); 
+makeRequest("google")
+  .then((response) => {
+    console.log(response);
+    return processRequest(response); //return it so that it can be chained
+  })
+  .then((message) => {
+    console.log(message);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+
+async function doWork() {}
