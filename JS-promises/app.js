@@ -51,7 +51,7 @@ const green = new Promise((resolve, rejec) => {
 });
 
 red.then((message) => {
-  console.log(message);
+  console.log(message); // it runs faster than .then.catch
 });
 
 // will execeute all at the same time. ie, it doesnt wait 1st one to finish the second one
@@ -77,3 +77,23 @@ function init() {
 init();
 
 // async await
+
+function makeRequest(location) {
+  return new Promise((resolve, reject) => {
+    console.log("making location request..");
+    if (location == "google") {
+      resolve("Google says hi");
+    } else reject("you can only talk to google");
+  });
+}
+
+function processRequest(response) {
+  return new Promise((resolve, reject) => {
+    console.log("Processing resposnse..");
+    resolve("Processed " + response);
+  });
+}
+
+makeRequest("google").then((response) => {
+  console.log(response);
+}); 
