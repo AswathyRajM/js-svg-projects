@@ -94,6 +94,7 @@ function processRequest(response) {
   });
 }
 
+// using promises
 makeRequest("google")
   .then((response) => {
     console.log(response);
@@ -106,4 +107,15 @@ makeRequest("google")
     console.log(err);
   });
 
-async function doWork() {}
+//using async await
+async function doWork() {
+  try {
+    const res = await makeRequest("google");
+    console.log("from async responded");
+    const mess = await processRequest(res);
+    console.log("from async" + mess);
+  } catch (err) {
+    console.log(err);
+  }
+}
+doWork();
