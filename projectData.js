@@ -28,7 +28,7 @@ const projects = [
     heading: "Flappy Bird",
     subHeading: "HTML and JS",
     description: "Simple flappy Bird using HTML canvas",
-    page: "flappyBird/flappybird.html",
+    page: "https://aswathyrajm.github.io/html-canvas-flappyBird/",
   },
   {
     heading: "Button Animations",
