@@ -42,12 +42,12 @@ const projects = [
     description: "Background animation using linear gradient",
     page: "animatedBackground/index.html",
   },
-//   {
-//     heading: "Menu hover effects",
-//     subHeading: "HTML, CSS & SVG",
-//     description: "Menu hover effects and animation using SVG filter",
-//     page: "menuHoverEffects/index.html",
-//   },
+  {
+    heading: "Menu hover effects",
+    subHeading: "HTML, CSS & SVG",
+    description: "Menu hover effects and animation using SVG filter",
+    page: "menuHoverEffects/index.html",
+  },
 //   {
 //     heading: "Liquid effect on css with svg filter",
 //     subHeading: "HTML, CSS & SVG",
