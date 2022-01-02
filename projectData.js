@@ -5,12 +5,12 @@ const projects = [
     description: "Birds rotate towards the mouse movement",
     page: "birdFlower/birdFlower.html",
   },
-  {
-    heading: "Image as border",
-    subHeading: "HTML and CSS",
-    description: "Border of the div is an image",
-    page: "borderImage/borderImage.html",
-  },
+//   {
+//     heading: "Image as border",
+//     subHeading: "HTML and CSS",
+//     description: "Border of the div is an image",
+//     page: "borderImage/borderImage.html",
+//   },
   {
     heading: "Random tree generator",
     subHeading: "HTML and JS ",
@@ -30,31 +30,31 @@ const projects = [
     description: "Simple flappy Bird using HTML canvas",
     page: "https://aswathyrajm.github.io/html-canvas-flappyBird/",
   },
-  {
-    heading: "Button Animations",
-    subHeading: "HTML,SVG,CSS and JS",
-    description: "Simple button animation using SVG",
-    page: "animatedButtons/index.html",
-  },
+//   {
+//     heading: "Button Animations",
+//     subHeading: "HTML,SVG,CSS and JS",
+//     description: "Simple button animation using SVG",
+//     page: "animatedButtons/index.html",
+//   },
   {
     heading: "Animated Background",
     subHeading: "HTML and CSS ",
     description: "Background animation using linear gradient",
     page: "animatedBackground/index.html",
   },
-  {
-    heading: "Menu hover effects",
-    subHeading: "HTML, CSS & SVG",
-    description: "Menu hover effects and animation using SVG filter",
-    page: "menuHoverEffects/index.html",
-  },
-  {
-    heading: "Liquid effect on css with svg filter",
-    subHeading: "HTML, CSS & SVG",
-    description:
-      "Liquid effect on css with svg filter; ‘Sticky/liquid/goo’ effect ",
-    page: "liquidButton/index.html",
-  },
+//   {
+//     heading: "Menu hover effects",
+//     subHeading: "HTML, CSS & SVG",
+//     description: "Menu hover effects and animation using SVG filter",
+//     page: "menuHoverEffects/index.html",
+//   },
+//   {
+//     heading: "Liquid effect on css with svg filter",
+//     subHeading: "HTML, CSS & SVG",
+//     description:
+//       "Liquid effect on css with svg filter; ‘Sticky/liquid/goo’ effect ",
+//     page: "liquidButton/index.html",
+//   },
 ];
 
 // var divItem = document.createElement("a");
