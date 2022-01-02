@@ -2,7 +2,7 @@ const projects = [
   {
     heading: "Birds and Flower",
     subHeading: "HTML,JS and CSS",
-    description: "Birds rotate towards the mouse movement",
+    description: "Birds rotate towards the mouse movement using CSS and JavaScript",
     page: "birdFlower/birdFlower.html",
   },
 //   {
@@ -14,7 +14,7 @@ const projects = [
   {
     heading: "Random tree generator",
     subHeading: "HTML and JS ",
-    description: "Random H-Tree Fractal gernerator based on recursion",
+    description: "Random H-Tree Fractal gernerator based on recursion using JavaScript",
     page: "hTreeFractal/index.html",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
   {
     heading: "Flappy Bird",
     subHeading: "HTML and JS",
-    description: "Simple flappy Bird using HTML canvas",
+    description: "Simple flappy Bird. It is developed using HTML canvas and JavaScript",
     page: "https://aswathyrajm.github.io/html-canvas-flappyBird/",
   },
 //   {
@@ -39,13 +39,13 @@ const projects = [
   {
     heading: "Animated Background",
     subHeading: "HTML and CSS ",
-    description: "Background animation using linear gradient",
+    description: "It is a ackground animation using linear gradient using CSS",
     page: "animatedBackground/index.html",
   },
   {
     heading: "Menu hover effects",
     subHeading: "HTML, CSS & SVG",
-    description: "Menu hover effects and animation using SVG filter",
+    description: "Menu hover effects and animation using SVG filter using CSS and SVG",
     page: "menuHoverEffects/index.html",
   },
 //   {
