@@ -12,9 +12,10 @@ a {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    paddng: 0 2rem;
+    paddng: 2rem;
     display: flex;
     text-align: left;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
