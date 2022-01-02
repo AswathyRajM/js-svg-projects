@@ -10,4 +10,4 @@ Download the repository and run index.html on any web browser.
 
 ## To View The Website Click On The Link Below
 
-https://aswathyrajm.github.io/small-projects/
+https://demo-projects-eight.vercel.app/
